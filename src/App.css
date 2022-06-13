@@ -1,0 +1,67 @@
+body {
+  background-color: gainsboro;
+  /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+}
+.players {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.diceHeader {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  margin-bottom: 5px;
+  padding: 50px;
+  color: white;
+}
+.diceBody {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  color: black;
+}
+.diceBody:first-child {
+  margin-right: 8px;
+}
+.diceIcon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 7rem;
+  background-color: #f5f5f5;
+}
+.diceIcon i {
+  margin: 10px;
+  color: #654ea3; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.diceHeader button {
+  width: 30%;
+  border: none;
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 1.5rem;
+}
